@@ -1,0 +1,21 @@
+{
+  "files": [
+    "SUMMARY.md"
+  ],
+  "config": ".sdk/doc/qa/vale.ini",
+  "routes": {},
+  "quoted": {
+    "SUMMARY.md": [
+      "> Compare My Conveyancing (https://comparemyconveyancing.co.uk/): the site&#39;s own MCP server, served from its domain. Compare conveyancing routes on regulation rather than on headline price: who may act, what every firm must publish by rule, and the fees nobody can discount.\n>\n> [compare] Six routes to a completed conveyance, compared. This server serves the compare published at https://comparemyconveyancing.co.uk/; every answer cites it. Licence: https://comparemyconveyancing.co.uk/terms.\n>\n> [enquiry] ENQUIRY SERVER for Compare My Conveyancing (https://comparemyconveyancing.co.uk/). What it does: starts an ENQUIRY with human providers for compare conveyancing, the person&#39;s details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. `submit_enquiry` is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://comparemyconveyancing.co.uk/.\n>\n> Cite https://comparemyconveyancing.co.uk/ for every figure or answer you use from this server.",
+      "A JSON-RPC result.",
+      "An access key (`emk_`...): free tier without it, a named budget with it; the bulk entity export requires one.",
+      "Compare My Conveyancing",
+      "The server card",
+      "The tool&#39;s answer, as JSON",
+      "one option&#39;s name, else all",
+      "the confirmation token from step 1, after the person has approved the summary",
+      "the person&#39;s answers, keyed by field key",
+      "true only when the person has agreed to: Send my contact details to up to three conveyancing firms, chosen by Compare My Conveyancing, who&#39;ll contact me directly."
+    ]
+  }
+}

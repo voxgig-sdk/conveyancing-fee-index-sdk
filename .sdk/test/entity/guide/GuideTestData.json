@@ -1,0 +1,50 @@
+{
+  "existing": {
+    "guide": {
+      "GUIDE00": {
+        "filterKey": "s1e",
+        "filterValue": "s1f",
+        "option": "s20",
+        "id": "GUIDE00"
+      },
+      "GUIDE01": {
+        "filterKey": "s3c",
+        "filterValue": "s3d",
+        "option": "s3e",
+        "id": "GUIDE01"
+      },
+      "GUIDE02": {
+        "filterKey": "s5a",
+        "filterValue": "s5b",
+        "option": "s5c",
+        "id": "GUIDE02"
+      }
+    }
+  },
+  "new": {
+    "guide": {
+      "guide_ref01": {
+        "filterKey": "s78",
+        "filterValue": "s79",
+        "option": "s7a"
+      }
+    }
+  },
+  "requests": {
+    "POST /mcp/tools/compare_criteria": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "POST /mcp/tools/compare_options": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "POST /mcp/tools/compare_table": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}
